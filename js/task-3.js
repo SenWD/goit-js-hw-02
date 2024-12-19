@@ -2,14 +2,13 @@ function checkForSpam(message) {
 
     message = message.toLowerCase(); 
     
-     if  (message.includes("spam") || message.includes("sale")){ 
-   
+     if  (message.includes("spam") || message.includes("sale")) { 
    
            return true; //console.log(true)
-       } else {
+    } else {
    
           return false; //console.log(false)
-       }
+            }
        
    } 
    
